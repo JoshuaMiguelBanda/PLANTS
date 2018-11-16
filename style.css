@@ -1,0 +1,100 @@
+body{ 
+	background-image: url(.//plants/nature1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.header{
+	margin-bottom:10px;
+	text-align:center;
+	font-family:Sedgwick Ave;
+}
+
+a {
+	text-decoration:none;
+}
+
+#header{
+	margin:5px;
+	padding:2px;
+	text-align:center;
+	display:grid;
+	grid-gap:1px;
+	grid-template-columns: 1fr 1fr 1fr 1fr;	
+}
+
+.button{
+	background-color:#fff;
+	color:#5d957c;
+	padding: 5px;
+	list-style:none;
+	font-family:Sedgwick Ave;
+	font-size: 20px;
+}
+
+.button:hover{
+	color:white;
+	background:black;
+}
+
+.showcase{
+	display:grid;
+	grid-gap:10px;
+	padding:20px;
+	grid-template-columns: 1fr 1fr 1fr;
+	font-size: 20px;
+	text-align:center;
+	color:white;
+}
+
+#box1{
+	padding: 250px;
+	grid-column:1/2;
+	border:black dashed;
+	grid-row: 1/70;
+	background-image:url(.//plants/indoor.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#box2{
+	padding: 240px;
+	grid-column:2/3;
+	border:black dashed;
+	grid-row: 1/70;
+	background-image:url(.//plants/outdoor.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#box3{
+	padding: 235px;
+	grid-column:3/3;
+	border:black dashed;
+	grid-row: 1/70;
+	background-image:url(.//plants/medicinal.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.article{
+	font-size:30px;
+	text-align: left;
+	font-family:Sedgwick Ave;
+	color:white;
+}
+
+.footer{
+	padding:20px;
+	font-size:30px;
+	text-align: center;
+	background:black;
+	color:white;
+	font-family:Sedgwick Ave;
+}
+
+
+
+
+
+
+
